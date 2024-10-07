@@ -16,7 +16,7 @@ type State = {
 const config = {
   issuer: 'https://simpletech.oktapreview.com/oauth2/default',
   clientId: '0oahln0iwgFaVZwJW1d7',
-  redirectUrl: 'http://localhost:8080/authorization-code/callback',
+  redirectUrl: 'http://com.oktapreview.simpletech/authorization-code/callback',
   additionalParameters: {},
   scopes: ['openid', 'profile', 'email', 'offline_access']
 
